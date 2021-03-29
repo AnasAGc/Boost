@@ -17,19 +17,30 @@ if(A1==='yes'){
 }
 */
 
-var initialImag=''
+
+
+function age1 (){
 var age = prompt("pleass enter your age . . ","you should be 18+ to enter site ")
 while ( age <= 17 ){
     alert("sorry you are not allowable to be here ")
     var age = prompt("pleass try  agine . . ")
 }
-
-var itemNum = prompt("How many shoes would you like to buy from us ")
-
-for (var i = 1 ; itemNum>=i ; i=i+1 ){
-    initialImag = initialImag + '<img src="Photos/Boot01.jpg" />'
-
-
 }
-console.log(i)
-document.write(initialImag)
+age1 ()
+
+
+function orderNum (){
+
+    var initialImag=''
+    var itemNum = prompt("How many shoes would you like to buy from us ")
+
+    for (var i = 1 ; itemNum>=i ; i=i+1 ){
+        initialImag = initialImag + '<img src="Photos/Boot01.jpg" />'
+        console.log(i)
+        document.write(initialImag)
+}
+}
+orderNum()
+
+
+

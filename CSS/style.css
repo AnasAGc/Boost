@@ -1,0 +1,67 @@
+header h1 {
+    text-align: center;
+    color:#7868e6;
+    margin:0%;
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 70px;
+    font-size: 20px;
+}
+
+header {
+    background-color: #e4fbff;
+    color: #b8b5ff;
+    height: 100px;
+}
+
+#first h2 {
+text-align: center;
+
+
+}
+#first p {
+    text-align: right;
+    font-size: 20px;
+    
+    }
+#first img{
+
+    display: inline-block;
+    text-align: center;
+  
+    margin-left:100px;
+}
+
+#second h2 {
+    text-align: center;
+}
+
+#second p {
+    text-align: right;
+    font-size: 20px;
+    
+    }
+#second img{
+
+    display: inline-block;
+    text-align: center;
+  
+    margin-left:100px;
+}
+
+body{
+        background-color:#edeef7;
+        margin: 0%;
+}
+
+
+footer{
+    color: #7868e6;
+    text-align: center;
+    font-size: 10px;
+    vertical-align: middle;
+  
+}
